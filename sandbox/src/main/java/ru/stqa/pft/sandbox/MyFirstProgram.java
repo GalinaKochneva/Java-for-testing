@@ -14,6 +14,10 @@ public class MyFirstProgram {
         double a = 4;
         double b = 6;
         System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
+
+        Point p1 = new Point(3, 7);
+        Point p2 = new Point(2, 5);
+        System.out.println("Расстояние между двумя точками = "+Point.distance(p1,p2));
     }
 
     public static void hello(String somebody) {
@@ -27,4 +31,5 @@ public class MyFirstProgram {
     public static double area(double a, double b) {
         return a * b;
     }
+
 }
