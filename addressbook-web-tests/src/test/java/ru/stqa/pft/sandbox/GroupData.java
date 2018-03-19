@@ -1,4 +1,4 @@
-package documents.GitHub.JavaForTesting.addressbook;
+package ru.stqa.pft.sandbox;
 
 public class GroupData {
     private final String name;

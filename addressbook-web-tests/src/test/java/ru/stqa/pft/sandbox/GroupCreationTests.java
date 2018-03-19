@@ -1,4 +1,4 @@
-package documents.GitHub.JavaForTesting.addressbook;
+package ru.stqa.pft.sandbox;
 
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.BeforeMethod;
