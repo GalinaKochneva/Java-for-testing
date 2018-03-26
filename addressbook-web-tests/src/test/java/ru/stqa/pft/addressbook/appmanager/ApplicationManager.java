@@ -35,7 +35,7 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
         //wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook/index.php");
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login("admin", "secret");
